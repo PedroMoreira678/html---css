@@ -7,15 +7,19 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Chiron+Hei+HK:ital,wght@0,200..900;1,200..900&family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Molle:ital@1&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
     background-color: rgb(132, 225, 173);
 }
 
-#titulo {
+header > h1 {
     font-size: 30px;
 }
 
-.pcb {
+header > p {
     color: #acc7b7;
 }
 
@@ -23,122 +27,76 @@ header {
     color: #EFF9F4;
     text-align: center;
     background-image: linear-gradient( to bottom, #3CD983, #195B38);
-    margin-left: -20px;
-    margin-right: -20px;
-    margin-top: -20px;
-    padding: 05px 15px;
 }
 
-nav {
-    text-align: left;
-}
-
-a:hover {
-    text-decoration: underline;
-    color: black;
-}
-
-div > a {
-    color: #EFF9F4;
-    text-decoration: none;
-    font-weight: bold;
-    padding: 05px 10px;
-    text-align: justify;
-}
-
-a::after {
-    width: 20px;
-}
 
 main {
     background-color: white;
     border: 1px solid #92CAAA;
-    padding: 20px 20px;
-    max-width: calc(100% - 500px);
-    margin: auto;
-    text-indent: 20px;
     box-shadow: 0px 8px 7px 6px #74C697;
     font-family: "Funnel Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-    font-size: 15px;
     text-align: justify;
     border-radius: 0px 0px 10px 10px;
 }
 
-.titulomeio {
+article > h1 {
     font-family: 'IDroid';
     color: #115631;
 }
 
-.subtitulomeio {
+article > h2 {
     font-family: 'IDroid';
     color: #115631;
     background-color: #C5EBD6;
     background-image: linear-gradient( to right, #C5EBD6,#FFFFFF)
 }
 
-a {
+article > a {
     text-decoration: none;
     color: rgb(26, 90, 56);
 }
 
 img {
     display: block;
-    margin: 20px auto;
-    max-width: 100%; 
 }
 
 .video {
     background-color: #1A5C38;
-    margin-left: -20px;
-    margin-right: -20px;
-    padding: 20px;
 }
 
 iframe {
     display: block;
-    margin: auto;
-    width: 100%;
-    border: none;
 }
 
-.final {
+aside >h3 {
     background-color: #C5EBD6;
-    padding: 0px 10px 5px 10px;
     border-radius: 10px 10px 10px 10px;
 }
 
-.final h2 {
+aside > h2 {
     background-color: #2FA866;
-    padding: 8px 8px 8px 3px;
-    margin-left: -10px;
-    margin-right: -10px;
     color: white;
-    font-size: 17px;
-    border-radius: 10px 10px 0px 0px;
 }
 
-.lista {
+div.lista {
     text-decoration: underline;
+    columns: 2;
 }
 
-.listafinal {
+aside > p {
     columns: 2;
 }
 
 footer {
     background-color: #1A5C38;
     text-align: center;
-    margin: 0px -20px -20px -20px;
 }
 
-.rodape a {
+footer > a {
     color: white;
     text-decoration: none;
 }
 
-.rodape p {
+footer > p {
     color: #2FA866;
 }
