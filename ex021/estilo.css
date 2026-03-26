@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgba(128, 128, 128, 0.63);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#titulo {
+    text-align: center;
+    background-color: brown;
+    color: black;
+    font: bolder 30px;
+    text-decoration: underline;
+    
+    
+}
+#impacto {
+    text-decoration: underline;
+    font: bolder 3em;
+    color: darkslategrey;
+
+}
+
+.fraco {
+    font: bold 20px;
+    text-decoration: underline;
+    color: lightcoral;
+
+}
+
+.destaque {
+    color: red;
+}
+
+h1 {
+    color: rgb(42, 43, 43);
+}
+
+h2 {
+    color:rgb(65, 66, 66);
+}
+
+p {
+    text-align: justify;
+    text-indent: 30px;
+}
