@@ -31,9 +31,9 @@ header > h1 {
 
 header > nav {
     padding: 10px;
-    display: flex;
     margin: 5px;
-    
+    display: flex;
+    flex-flow: row wrap;
     
 }
 
